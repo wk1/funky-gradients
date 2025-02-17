@@ -2,6 +2,8 @@ import SwiftUI
 
 public struct FunkyGradients: View {
   @State private var funkyGradient: Bool = false
+
+  public init() {}
   
   public var body: some View {
     ZStack {
